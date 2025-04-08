@@ -102,3 +102,19 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+
+@media (max-width: 768px) {
+    body {
+        display: flex;        
+        flex-direction: column; 
+        align-items: center;    
+        justify-content: center; 
+    }
+
+    #uploadForm {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+}
