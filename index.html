@@ -35,7 +35,7 @@
             fd.append('file', file)
             fd.append('email', email)
 
-            const res = await fetch('http://138.68.126.118:3000/api/cv', { method: 'POST', body: fd })
+            const res = await fetch('https://api.senenmarques.me/api/cv', { method: 'POST', body: fd })
             console.log(res.status)
             if (res.status === 201) alert(`CV sent to ${email}`)
         })
